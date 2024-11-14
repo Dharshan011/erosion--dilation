@@ -39,7 +39,7 @@ image = np.zeros((300, 600, 3), dtype="uint8")
 
 ### Create the Text using cv2.putText
 ```
-text = "Thiyagarajan"
+text = "Dharshan"
 font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(image, text, (50, 150), font, 2, (255, 255, 255), 3)
 ```
